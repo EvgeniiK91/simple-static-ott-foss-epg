@@ -7,5 +7,5 @@ curl -Ls $LATEST_RELEASE | gzip -d > $CONV_BIN
 
 chmod +x $CONV_BIN
 cd ./html/
-../$CONV_BIN -c ../conv.json
+../$CONV_BIN -c 
 [ -f epgcache.tmp ] && rm epgcache.tmp
